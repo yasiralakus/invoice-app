@@ -673,6 +673,7 @@ p, h1, h2, h3, h4, h5, h6 {
     .open-bar {
         width: 100%;
         padding: 32px;
+        transition: all .5s;
         > form {
             width: 100%;
         }

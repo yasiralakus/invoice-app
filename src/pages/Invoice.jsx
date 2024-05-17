@@ -27,7 +27,7 @@ export default function Invoice() {
 
                 <div style={{gap: '8px'}}>
                     <button onClick={() => (setIsDelete(true), setText('Silmeyi'))} style={{backgroundColor: '#EC5757'}}>Sil</button>
-                    <button onClick={() => (setIsDelete(true), setText('Ödemeyi'))} style={{backgroundColor: '#7C5DFA'}}>Ödendi</button>
+                    <button onClick={() => (setIsDelete(true), setText('Ödemeyi'))} style={{backgroundColor: '#7C5DFA'}}>Öde</button>
                 </div>
 
             </header>
